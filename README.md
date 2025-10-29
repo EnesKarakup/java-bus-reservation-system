@@ -22,7 +22,7 @@ com.otobusrezervasyon
 
 ### Katman Açıklamaları
 
-#### 1️ Model Katmanı (Entity Layer)
+####  Model Katmanı (Entity Layer)
 Sistemdeki temel varlıkları ve enum tiplerini içerir:
 - **Yolcu**: Yolcu bilgilerini tutar
 - **Otobus**: Otobüs ve koltuk bilgilerini yönetir
@@ -30,14 +30,14 @@ Sistemdeki temel varlıkları ve enum tiplerini içerir:
 - **Koltuk**: Koltuk durumlarını yönetir
 - **Rezervasyon**: Rezervasyon işlemlerini temsil eder
 
-#### 2️ Service Katmanı (Business Layer)
+####  Service Katmanı (Business Layer)
 İş mantığı ve CRUD operasyonlarını gerçekleştirir:
 - **YolcuServis**: Yolcu işlemleri
 - **OtobusServis**: Otobüs yönetimi
 - **SeferServis**: Sefer yönetimi
 - **RezervasyonServis**: Rezervasyon işlemleri
 
-#### 3️ Runner Katmanı (Presentation Layer)
+####  Runner Katmanı (Presentation Layer)
 - **RezervasyonSistemi**: Ana uygulama ve kullanıcı arayüzü
 
 ## OOP Prensipleri
