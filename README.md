@@ -7,7 +7,7 @@ Otobüs Rezervasyon Sistemi, şehirlerarası otobüs seferlerinin yönetimi ve b
 
 ## Mimari Yapı
 
-Proje, **3 Katmanlı Mimari (Layered Architecture)** kullanılarak tasarlanmıştır:
+Proje, **Katmanlı Mimari (Layered Architecture)** kullanılarak tasarlanmıştır:
 
 ```
 com.otobusrezervasyon
@@ -65,9 +65,9 @@ Projenin sınıf yapısını ve ilişkilerini gösteren detaylı UML diyagramı:
 <img width="3703" height="3120" alt="UML class" src="https://github.com/user-attachments/assets/fff1b4fd-dea3-4e31-a750-38442b9d0e25" />
 
 **Önemli İlişkiler:**
-- `Sefer` → `Otobus`: 1-to-1 ilişki
-- `Otobus` → `Koltuk`: 1-to-Many ilişki
-- `Rezervasyon` → `Sefer`, `Yolcu`, `Koltuk`: Many-to-1 ilişkiler
+- `Sefer` → `Otobus`: 1-1 ilişki
+- `Otobus` → `Koltuk`: 1-n ilişki
+- `Rezervasyon` → `Sefer`, `Yolcu`, `Koltuk`: n-1 ilişkiler
 - Service sınıfları → Model sınıfları: Dependency ilişkisi
 
 ### Package Diagram
@@ -103,7 +103,7 @@ Katmanlar arası ilişkileri ve bağımlılıkları gösteren mimari diyagram g�
 - **Scanner** (Kullanıcı girişi)
 - **Enum Types** (Tip güvenliği)
 
-## 📦 Enum Yapıları
+## Enum Yapıları
 
 ```java
 // Cinsiyet durumları
@@ -119,7 +119,7 @@ OtobusTuru: STANDART, KONFOR
 RezervasyonDurumu: AKTIF, IPTAL
 ```
 
-## 🚀 Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 ### Gereksinimler
 - Java JDK 8 veya üzeri
@@ -141,7 +141,7 @@ java com.otobusrezervasyon.z.runner.RezervasyonSistemi
 
 4. Ana menüden istediğiniz işlemi seçin
 
-## 📖 Kullanım Örneği
+##  Kullanım Örneği
 
 ### 1. Sefer Ekleme
 ```
