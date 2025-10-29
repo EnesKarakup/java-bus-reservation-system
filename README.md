@@ -139,7 +139,21 @@ git clone [repository-url]
 java com.otobusrezervasyon.z.runner.RezervasyonSistemi
 ```
 
-4. Ana menüden istediğiniz işlemi seçin
+4. Konsol Menü Yapısı ve Örnek İşlemler
+## Konsol Menü Görünümü
+
+```
+╔══════════════════════════════════════════╗
+║        OTOBÜS REZERVASYON SİSTEMİ        ║
+╚══════════════════════════════════════════╝
+
+1. Sefer İşlemleri
+2. Rezervasyon İşlemleri
+3. Yolcu İşlemleri
+4. Çıkış
+
+Seçiminiz: _
+```
 
 ##  Kullanım Örneği
 
@@ -168,7 +182,7 @@ Rezervasyon İşlemleri > Yeni Rezervasyon Yap
 - Otomatik rezervasyon numarası
 ```
 
-## 📁 Proje Yapısı
+## Proje Yapısı
 
 ```
 src/
@@ -193,7 +207,7 @@ src/
         └── RezervasyonSistemi.java
 ```
 
-## 🎨 Öne Çıkan Tasarım Desenleri
+## Öne Çıkan Tasarım Desenleri
 
 ### Service Layer Pattern
 Her entity için ayrı servis sınıfı oluşturulmuş, iş mantığı merkezi olarak yönetilmiştir.
@@ -204,7 +218,7 @@ Service sınıfları `List<T>` koleksiyonları ile basit bir veri yönetimi sağ
 ### Single Responsibility Principle
 Her sınıf tek bir sorumluluğa sahiptir ve bu sorumluluk net bir şekilde ayrılmıştır.
 
-## 🔐 Validasyon ve Kontroller
+## Validasyon ve Kontroller
 
 - ✅ Dolu koltuk kontrolü
 - ✅ Geçersiz sefer/yolcu kontrolü
@@ -212,7 +226,7 @@ Her sınıf tek bir sorumluluğa sahiptir ve bu sorumluluk net bir şekilde ayr�
 - ✅ Enum değer kontrolü
 - ✅ Rezervasyon durum kontrolü
 
-## 📝 Lisans
+## Lisans
 
 Bu proje eğitim amaçlı geliştirilmiştir.
 
