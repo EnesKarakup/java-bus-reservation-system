@@ -4,9 +4,6 @@
 
 Otobüs Rezervasyon Sistemi, şehirlerarası otobüs seferlerinin yönetimi ve bilet rezervasyonlarının yapılabildiği konsol tabanlı bir Java uygulamasıdır. Proje, **Nesne Yönelimli Programlama (OOP)** prensipleri ve **Katmanlı Mimari** yapısı kullanılarak geliştirilmiştir.
 
-## Geliştirme Ekibi
-
-Bu proje **5 kişilik** bir ekip tarafından geliştirilmiştir.
 
 ## Mimari Yapı
 
