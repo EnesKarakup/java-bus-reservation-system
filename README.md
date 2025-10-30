@@ -1,4 +1,4 @@
-![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk&logoColor=white)
+![Java](https://img.shields.io/badge/Java-8+-ED8B00?logo=openjdk&logoColor=white)
 ![OOP](https://img.shields.io/badge/OOP-Encapsulation%20•%20Polymorphism-green.svg)
 ![Reservation System](https://img.shields.io/badge/App-Reservation%20System-blue.svg)
 ![Architecture](https://img.shields.io/badge/Layered-Model%20%7C%20Service%20%7C%20Runner-yellow.svg)
