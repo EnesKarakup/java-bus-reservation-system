@@ -1,3 +1,9 @@
+![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-Encapsulation%20•%20Polymorphism-green.svg)
+![Reservation System](https://img.shields.io/badge/App-Reservation%20System-blue.svg)
+![Architecture](https://img.shields.io/badge/Layered-Model%20%7C%20Service%20%7C%20Runner-yellow.svg)
+![Dependencies](https://img.shields.io/badge/Dependencies-Zero-success.svg)
+
 # Otobüs Rezervasyon Sistemi
 
 ## Proje Hakkında
@@ -225,6 +231,14 @@ Her sınıf tek bir sorumluluğa sahiptir ve bu sorumluluk net bir şekilde ayr�
 - ✅ TC kimlik doğrulaması
 - ✅ Enum değer kontrolü
 - ✅ Rezervasyon durum kontrolü
+
+## Katkıda Bulunanlar
+- https://github.com/i-bexx
+- https://github.com/EnesKarakup
+- https://github.com/ba2han1
+- https://github.com/muhammed-ismail-dari
+- https://github.com/codewithrage
+
 
 ## Lisans
 
